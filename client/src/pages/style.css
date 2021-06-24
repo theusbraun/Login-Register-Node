@@ -1,0 +1,58 @@
+body {
+  text-align: center;
+}
+
+.register {
+  text-align: center;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Formulario h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+div input {
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #8b008b;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+div input:focus {
+  width: 280px;
+  border-color: #ffd700;
+}
+
+div button {
+	background-color:transparent;
+	border-radius:17px;
+	border:1px solid #8b008b;
+	display:inline-block;
+	cursor:pointer;
+  font-family:sans-serif;
+  color: white;
+	padding:6px 13px;
+	text-decoration:none;
+}
+
+div button:active {
+	position:relative;
+    top:1px;
+    border-color: #ffd700;
+}
+

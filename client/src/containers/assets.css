@@ -1,0 +1,46 @@
+
+.cabecalho {
+    grid-area: cabecalho;
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+    width: 100vw
+}
+
+.cabecalho > div {
+    display: inline-block;
+    width: 200px;
+}
+
+.cabecalho > div > escolas {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cabecalho > div > hefesto {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(236, 14, 14, 0.75);
+}
+
+
+.cabecalho > div > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho > div > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
